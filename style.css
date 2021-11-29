@@ -1,0 +1,79 @@
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/amazing-sunset-over-dead-sea-view-jordan-to-israel-mountains-judea-madaba-governorate-karak-reflection-sun-skies-144134409.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+} 
+h1{
+    text-align: center;
+    margin-top: 1.5%;
+    font-size: 5rem;
+    font-family: serif;
+}
+
+.card {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  height: 30rem;
+  background: rgba(216,226,220,0.7);
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px;
+}
+
+#inp, button {
+    width: 80%;
+    text-align: center;
+    border-radius: 6px;
+    height: 40px;
+    border: none;
+    opacity: 1;
+    font-size: 110%;
+}
+
+#inp {
+    background-color: rgba(72, 163, 228, 0.6);
+    font-weight: bold;
+}
+
+button {
+    background-color: #fcbf49;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: serif;
+}
+
+#res {
+    height: fit-content;
+    opacity: 1;
+    font-size: larger;
+    font-weight: bold;
+    font-family: serif;
+    color: rgba(0, 25, 139, 0.753);
+    text-align: center;
+}
+
+#res-container {
+    
+    margin-top: 10px;
+    background: rgba(254,250,224,0.7);
+}
+
+button:hover {
+    background-color: #faa307;
+    font-size: 24px;
+}
+
+button:focus {
+    background-color: #faa307;
+    font-size: 24px;
+}
+
+@media screen and (max-height: 670px), (max-width: 500px) {
+    h1 {
+        display: none;
+    }
+  }

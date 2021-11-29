@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    
+</head>
+<body>
+  <h1>Weather App</h1>
+  <div class="card" style="width: 20rem;">
+    <div class="card-body">
+      <input type="text" placeholder="Enter a city" id="inp">
+      <button>Get Weather</button>
+      <div class="card" id="res-container" style="width: 18rem; height: fit-content; margin-top: 10px; display: none;">
+        <div class="card-body" id="res">
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <script src="weather.js"></script>
+</body>
+</html>
